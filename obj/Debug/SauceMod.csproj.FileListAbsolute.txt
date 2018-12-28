@@ -1,0 +1,11 @@
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\SauceMod.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\SauceMod.pdb
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\Microsoft.Xna.Framework.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\Microsoft.Xna.Framework.Game.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\obj\Debug\SauceMod.csproj.CoreCompileInputs.cache
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\obj\Debug\SauceMod.csproj.CopyComplete
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\obj\Debug\SauceMod.dll
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\obj\Debug\SauceMod.pdb
+D:\Users\Owner\Documents\my games\Terraria\ModLoader\Mod Sources\SauceMod\obj\Debug\SauceMod.csprojAssemblyReference.cache

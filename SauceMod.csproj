@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8298EAB6-0586-4BDA-9483-83624B66B13A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SauceMod</RootNamespace>
+    <AssemblyName>SauceMod</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Items\GrowthBiome\CoreFragment.cs" />
+    <Compile Include="Items\GrowthBiome\CoreItem.cs" />
+    <Compile Include="Items\GrowthBiome\InfectedGrowthTissueItem.cs" />
+    <Compile Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteBarItem.cs" />
+    <Compile Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteGunblade.cs" />
+    <Compile Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteOreItem.cs" />
+    <Compile Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteProtector.cs" />
+    <Compile Include="Items\GrowthBiome\Pythite\Tier3Pythite\T3PythiteGunblade.cs" />
+    <Compile Include="WorldGen\ItemToSpawnBiome.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SauceMod.cs" />
+    <Compile Include="WorldGen\SauceWorld.cs" />
+    <Compile Include="Tiles\InfectedGrowthTissueTile.cs" />
+    <Compile Include="Tiles\PythiteOreBlock.cs" />
+    <Compile Include="Walls\CoreWall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BaseMod">
+      <HintPath>..\..\..\..\..\..\Downloads\BaseMod.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Game\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Xact\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+    <Content Include="Items\GrowthBiome\CoreFragment.png" />
+    <Content Include="Items\GrowthBiome\CoreItem.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteBarItem.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteHeadpiece_Head.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteHelmet_Head.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteHood_Head.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteOreItem.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteGunblade.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteProtector.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier1Pythite\T1PythiteProtector_Head.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier2Pythite\T2PythiteGunblade.png" />
+    <Content Include="Items\GrowthBiome\Pythite\Tier3Pythite\T3PythiteGunblade.png" />
+    <Content Include="Tiles\CoreTile.png" />
+    <Content Include="Items\GrowthBiome\InfectedGrowthTissueItem.png" />
+    <Content Include="Tiles\InfectedGrowthTissueTile.png" />
+    <Content Include="Tiles\PythiteOreBlock.png" />
+    <Content Include="Walls\CoreWall.png" />
+    <Content Include="WorldGen\ItemToSpawnBiome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\GrowthBiome\Pythite\Isotopes\" />
+    <Folder Include="NPCs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"D:\Steam\steamapps\common\terraria\tModLoaderServer.exe" -build "$(ProjectDir)\" -eac "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
