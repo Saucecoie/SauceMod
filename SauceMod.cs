@@ -6,6 +6,14 @@ namespace SauceMod
 	{
 		public SauceMod()
 		{
+			properties = new ModProperties()
+            		{
+                		Autoload = true,
+                		AutoloadGores = true,
+                		AutoloadSounds = true,
+                		AutoloadBackgrounds = true
+            		};
+            		instance = this;
 		}
 	}
 }
