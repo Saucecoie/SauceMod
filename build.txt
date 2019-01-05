@@ -1,3 +1,5 @@
 author = Saucecoie
 version = 0.0.1
 displayName = SauceMod
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.gif
+modReferences = BaseMod
